@@ -3,39 +3,47 @@
 body {
 	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	margin: 0px;
+  background-color: #717070;
 }
 h2 {
 	font-family: raleway;
 	text-align: center;
 	font-size: 32px;
 	letter-spacing: 2px;
-	margin-bottom: 10px;
+  margin: 0px;
+  padding-top: 25px;
 }
 h3 {
 	text-align: center;
 	font-weight: bolder;
 	font-size: 30px;
 	letter-spacing: 1px;
-	margin-bottom: 10px;
+  margin: 0px;
+  padding-top: 15px;
 }
 h4 {
 	text-align: center;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 20px;
 	letter-spacing: 1px;
-	margin-bottom: 10px;
+  margin: 0px;
+  padding-top: 15px;
 }
 p {
 	color: #717070;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: lighter;
 	letter-spacing: 1px;
 	line-height: 22px;
 	text-align: left;
+  margin: 0px;
+  padding-top: 15px;
 }
 a {
   color: #339CC9;
   text-decoration: none;
+  margin: 0px;
+  padding-top: 10px;
 }
 a:hover {
 	border-bottom-width: 1px;
@@ -110,35 +118,33 @@ ul li:hover a {
 	margin-left: 15%;
   margin-right: 15%;
 	letter-spacing: 4px;
-	padding-top: 15%;
+	padding-top: 150px;
 }
 .splash p {
 	color: #FFF;
 	text-align: center;
-	margin-top: 15px;
 	margin-left: 25%;
 	margin-right: 25%;
 }
 /* About Section */
 .about {
-	padding-bottom: 25px;
-  padding-top: 50px;
+	margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 6%;
+  margin-right: 6%;
 	display: inline-block;
 }
 .about img {
   width: 25%;
   max-width: 250px;
   border-radius: 50%;
-  margin-left: 6%;
   margin-right: 50px;
   margin-bottom: 25px;
   float: left;
 }
 .about h3 {
 	color: #3A3A3A;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 6%;
+  margin: 0px;
   text-align: left;
 }
 .about h4 {
@@ -147,13 +153,9 @@ ul li:hover a {
 	line-height: 22px;
 	color: #656B6F;
   text-align: left;
-  margin-right: 6%;
 }
 .about p {
 	text-align: justify;
-  margin-top: 10px;
-  margin-left: 6%;
-  margin-right: 6%;
 }
 /* Research */
 .research {
@@ -162,7 +164,8 @@ ul li:hover a {
 }
 .research h3 {
 	color: #FFF;
-	margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 .research_column {
 	width: 41%;
@@ -176,12 +179,14 @@ ul li:hover a {
 .research .research_column h4 {
 	color: #FFF;
 	margin-top: 0px;
-  min-height: 60px;
+  margin-bottom: 15px;
 }
 .research .research_column p {
-  font-size: 14px;
 	text-align: justify;
-  letter-spacing: 1.5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 20px;
@@ -197,17 +202,15 @@ ul li:hover a {
 }
 .publications h3 {
 	color: #3A3A3A;
+  margin-top: 10px;
 }
 .publications h4 {
   color: #3A3A3A;
-	font-weight: 400;
 	text-align: left;
-  margin-top: 25px;
 }
 .publications p {
   color: #656B6F;
-	font-size: 14px;
-  font-weight: 300;
+	font-size: 16px;
 }
 .publications p strong {
   font-weight: 400;
@@ -236,13 +239,15 @@ ul li:hover a {
 .outreach .summary {
 	display: inline-block;
 	margin-left: 6%;
-	padding-top: 25px;
-  margin-bottom: 25px;
+  margin-right: 6%;
+  margin-bottom: 10px;
 }
 .outreach .summary h3 {
 	color: #FFF;
 	text-align: left;
 	letter-spacing: 2px;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 .outreach .summary p {
 	color: #FFF;
@@ -251,7 +256,8 @@ ul li:hover a {
 	width: 35%;
 	float: left;
 	line-height: 23px;
-	margin-top: 0px;
+  margin-top: 0px;
+	margin-bottom: 15px;
 }
 .outreach .gallery {
 	display: flex;
@@ -265,7 +271,7 @@ ul li:hover a {
 	margin-right: 2%;
 	text-align: center;
 	float: left;
-	background-color: rgba(255,255,255,0.85);
+	background-color: rgba(255,255,255,0.9);
 }
 .outreach .gallery .thumbnail img {
 	margin-top: 15px;
@@ -277,7 +283,7 @@ ul li:hover a {
 	margin-right: 5px;
 	margin-bottom: 10px;
 	margin-left: 5px;
-  font-size: 18px;
+  font-size: 16px;
 	color: #52BAD5;
 }
 .outreach .gallery .thumbnail p {
@@ -292,6 +298,11 @@ ul li:hover a {
 .skills {
 	margin-left: 6%;
 	margin-right: 6%;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.skills table {
+  padding-top: 10px;
 }
 .skills table th {
   font-weight: 400;
@@ -383,216 +394,133 @@ footer p {
 @media (max-width: 320px) {
 .logo {
 	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+  margin: 0px;
+  text-align: center;
 }
+h2 {
+  font-size: 26px;  
+}
+  .splash h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .splash p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 14px;
+  }
+h3 {
+  font-size: 20px;
+}
+  .about h3 {
+    padding-top: 0px;
+  }
+  .about h4 {
+    font-size: 14px;
+  }
+  .about p {
+    font-size: 14px;
+    text-align: left;
+  }
 .container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	float: none;
-	display: none;
+  visibility: collapse;
 }
 header nav ul {
 }
 nav ul li {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	text-align: center;
 }
-.text_column {
-	width: 100%;
-	text-align: justify;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.thumbnail {
-	width: 100%;
-}
-.footer_column {
-	width: 100%;
-	margin-top: 0px;
-}
-.parallax {
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 100%;
-	font-size: 18px;
-}
-.parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 90%;
-	margin-top: 25px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 12px;
-	float: none;
-	text-align: center;
-}
-.banner {
-	background-color: #2D9AB7;
-	background-image: none;
-}
-.tagline {
-	margin-top: 20px;
-	line-height: 22px;
-}
-.hero_header {
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 22px;
-	text-align: center;
-}
+  .research .research_column {
+    margin: 0px;
+    width: 100%;
+  }
+  .research .research_column h4 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .research .research_column p {
+    font-size: 14px;
+    text-align: left;
+  }
+  .publications h4 {
+    font-size: 18px;
+  }
+  .publications p {
+    font-size: 14px;
+  }
+  .outreach .summary p {
+    font-size: 14px;
+    width: 80%;
+  }
+  .outreach .gallery {
+    display: inline-block;
+  }
+  .outreach .gallery .thumbnail {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .skills table th {
+    font-size: 14px;
+  }
+  .skills table td {
+    font-size: 12px;
+  }
 }
 
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
-.logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	color: #043745;
-}
 .container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
+  visibility: collapse;
+}
+/*.container header nav {
+	margin: 0px;
 	float: none;
 	overflow: auto;
 	display: inline-block;
 	background: #2D9AB7;
+  visibility: hidden;
+  width: 0px;
+  width: 100%;
 }
 header nav ul {
 	padding: 0px;
 	float: none;
+  visibility: hidden;
+  width: 0px;
 }
 nav ul li {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	width: 100%;
-	text-align: center;
+  width: 100%;
 	padding-top: 8px;
 	padding-bottom: 8px;
-}
-.text_column {
-	width: 100%;
-	text-align: left;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.thumbnail {
-	width: 100%;
-}
-.footer_column {
-	width: 100%;
-	margin-top: 0px;
-}
-.parallax {
 	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 100%;
-	font-size: 18px;
+  visibility: hidden;
+  width: 0px;
+}*/
+.research_column {
+	margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 20px;
 }
-.parallax_description {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	margin-top: 30%;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	float: none;
-	width: 100%;
-	text-align: center;
-}
-.thumbnail {
-	width: 50%;
-}
-.parallax {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-top: 20%;
-}
-.parallax_description {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 30px;
-}
-.banner {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.footer_column {
-	width: 100%;
+.outreach .gallery .thumbnail {
+	width: 45%;
+	margin-right: 2%;
 }
 }
 
 /* Small Desktops */
 @media (min-width: 768px) and (max-width: 1096px) {
-.text_column {
-	width: 100%;
+.research_column {
+	margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 20px;
 }
-.thumbnail {
-	width: 50%;
-}
-.text_column {
-	width: 100%;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.banner {
-	margin-top: 0px;
-	padding-top: 0px;
+.outreach .gallery .thumbnail {
+	width: 45%;
+	margin-right: 2%;
 }
 }
