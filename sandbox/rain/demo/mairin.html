@@ -6,11 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Rain Effect | Mairin Hart Productions</title>
-	<meta name="author" content="Caitlyn Clabaugh and Lucas Bebber" />
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="css/style3.css" />
+	<link rel="stylesheet" type="text/css" href="css/style1.css" />
 </head>
 
 <body class="demo-1">
@@ -26,11 +25,17 @@
 		<img src="img/weather/texture-drizzle-fg.png" />
 		<img src="img/weather/texture-drizzle-bg.png" />
 	</div>
-	<div class="slideshow">
-		<canvas id="container" width="1" height="1" style="position:absolute"></canvas>
-		<div class="slide" id="slide-5" data-weather="storm"></div>
+	<div class="container">
+		<div class="slideshow">
+			<canvas width="1" height="1" id="container" style="position:absolute"></canvas>
+			<!-- Heavy rain -->
+			<div class="slide" id="slide-5" data-weather="storm">
+				<div class="slide__element slide__element--date">Wednesday, 28<sup>th</sup> of October 2043</div>
+				<div class="slide__element slide__element--temp">20°<small>C</small></div>
+			</div>
+		</div>
+		<p class="nosupport">Sorry, but your browser does not support WebGL!</p>
 	</div>
-	<p class="nosupport">Sorry, but your browser does not support WebGL!</p>
 	<!-- /container -->
 	<script src="js/index.min.js"></script>
 </body>
