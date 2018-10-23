@@ -25,17 +25,8 @@
 		<img src="img/weather/texture-drizzle-fg.png" />
 		<img src="img/weather/texture-drizzle-bg.png" />
 	</div>
-	<div class="container">
-		<div class="slideshow">
-			<canvas width="1" height="1" id="container" style="position:absolute"></canvas>
-			<!-- Heavy rain -->
-			<div class="slide" id="slide-5" data-weather="storm">
-				<div class="slide__element slide__element--date">Wednesday, 28<sup>th</sup> of October 2043</div>
-				<div class="slide__element slide__element--temp">20°<small>C</small></div>
-			</div>
-		</div>
-		<p class="nosupport">Sorry, but your browser does not support WebGL!</p>
-	</div>
+	<canvas width="1" height="1" id="container" style="position:absolute" data-weather="storm"></canvas>
+	<p class="nosupport">Sorry, but your browser does not support WebGL!</p>
 	<!-- /container -->
 	<script src="js/index.min.js"></script>
 </body>
